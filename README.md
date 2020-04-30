@@ -33,4 +33,6 @@ Os dados utilizados foram extraidos dos repositorios:
 * Casos de coronavírus confirmados e mortes.
 * Casos de coronavírus confirmados Município de Alegrete,rs.
 * Casos de coronavírus no Mundo.
-* Estimação do 𝑅𝑡 do COVID-19 em tempo real.
+
+![Estimação do 𝑅𝑡 do COVID-19 em tempo real Estados.](https://github.com/JonerMello/COVID19/blob/master/IMG/COVID19%20estados.png)
+![Estimação do 𝑅𝑡 do COVID-19 em tempo real Rio Grande do Sul.](https://github.com/JonerMello/COVID19/blob/master/IMG/RS.png)
