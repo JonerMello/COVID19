@@ -1,0 +1,65 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>src</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>Python</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>src</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="src.pyproj" File="src.pyproj" ReplaceParameters="true">
+      <Folder Name="controller" TargetFolderName="controller">
+        <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="core.py">core.py</ProjectItem>
+      </Folder>
+      <Folder Name="model" TargetFolderName="model">
+        <Folder Name="feature_engineering" TargetFolderName="feature_engineering">
+          <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="data_reduction.py">data_reduction.py</ProjectItem>
+        </Folder>
+        <Folder Name="interpretability" TargetFolderName="interpretability">
+          <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="interpretability.py">interpretability.py</ProjectItem>
+        </Folder>
+        <Folder Name="optimization" TargetFolderName="optimization">
+          <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="grid_search.py">grid_search.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hyperparameter_optimization.py">hyperparameter_optimization.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="hyperparameters_methods.py">hyperparameters_methods.py</ProjectItem>
+        </Folder>
+        <Folder Name="preprocessing" TargetFolderName="preprocessing">
+          <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="data_cleaning.py">data_cleaning.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="data_info.py">data_info.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="data_transformation.py">data_transformation.py</ProjectItem>
+        </Folder>
+        <Folder Name="tools" TargetFolderName="tools">
+          <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="dataset_validation.py">dataset_validation.py</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+      </Folder>
+      <Folder Name="test" TargetFolderName="test">
+        <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Test_Data_Cleaning.py">Test_Data_Cleaning.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Test_Data_Transformation.py">Test_Data_Transformation.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Test_DataCleaning_And_Transformation.py">Test_DataCleaning_And_Transformation.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Test_feature_selection.py">Test_feature_selection.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Test_Hyperparameters.py">Test_Hyperparameters.py</ProjectItem>
+      </Folder>
+      <Folder Name="view" TargetFolderName="view">
+        <ProjectItem ReplaceParameters="true" TargetFileName="__init__.py">__init__.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="logo.py">logo.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.py">main.py</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="setup.py">setup.py</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
